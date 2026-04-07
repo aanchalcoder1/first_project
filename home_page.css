@@ -7,6 +7,32 @@ html,body{
     width: 100%;
     height: 100%;
 }
-h1{
-    font-size: 10vw;
+
+ #parent{
+    height: 20vmax;
+    width: 20vmax;
+    background-color: rgb(3, 148, 138);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    flex-wrap: wrap;
+} 
+
+#chil1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px solid white;
+}
+#chil2{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px solid white;
+}
+#chil3{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px solid white;
 }
